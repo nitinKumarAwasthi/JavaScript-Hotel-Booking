@@ -1,0 +1,27 @@
+
+
+.titolo{
+    color:red;
+    font-size: 32px;
+    text-align: center;
+}
+
+.insert, .gestione, .soldOut{
+    color: blue;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#table{
+    border: 1px solid;
+    color: black;
+}
+
+td {
+    background-color: green;
+}
+
+#selcamera, #nomeOspite, #selnotte{
+    margin-bottom: 30px;
+}

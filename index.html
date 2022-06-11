@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand_Hotel_Tiziano</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+    <h1 class="titolo">Grand_Hotel_Tiziano</h1>
+    <hr>
+    <div class="insert">
+        <h3 class="sottotitolo">
+            <b>
+                <i>
+                    <medium>Inserici Prenotazione</medium>
+                </i>
+            </b>
+        </h3>
+
+        <div>
+        <label for="Camera">Camera</label>
+        <select name="seleziona_camera" id="selcamera">
+            <option value="classic">Classic</option>
+            <option value="superior">Superior</option>
+            <option value="suite">Suite</option>
+        </select>
+    </div>
+        
+        <div>
+            <label for="notte">Notte</label>
+            <select name="seleziona_notte" id="selnotte">
+                <option value="28/01">28/01</option>
+                <option value="29/01">29/01</option>
+                <option value="30/01">30/01</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="ospite">Ospite:</label>
+            <input type="text" name="nome_ospite" id="nomeOspite" minlength="3" maxlength="20" placeholder="Inserici Nome"  required > 
+    </div>
+
+    <div>
+        <button id="btn" type="button" >Inserici Prenotazione</button>
+    </div>
+    <hr>
+</div>
+
+<div  class="tabel" >
+    <h1 class="gestione">Gestione_Prenotazioni</h1>
+    
+        <table id="table" border="5" cellpadding="10" cellspacing="10" align="center">
+            <thead>
+                <tr>
+                    <th>Notte/Camera</th>
+                    <th>28/01</th>
+                    <th>29/01</th>
+                    <th>30/01</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Classic</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Superior</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Suite</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+        <p id="soldOut">ff</p>
+    </div>
+
+    
+    
+
+    <script src="index.js"></script>
+</body>
+
+</html>
